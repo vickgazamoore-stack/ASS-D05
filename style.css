@@ -1,0 +1,98 @@
+/* Body Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0056b3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container Box */
+.container {
+  background-color: rgb(245, 222, 179);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 20px;
+  width: 350px;
+  text-align: center;
+}
+
+/* header */
+h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Labels and Inputs */
+label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2b2929;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #dddada;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Reset Button */
+.reset {
+  background-color: #dc3545;
+}
+
+.reset:hover {
+  background-color: #b02a37;
+}
+
+/* Result Box */
+#result-box {
+  margin-top: 25px;
+  background-color: #d0d2d4;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 20px;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 15px;
+}
+

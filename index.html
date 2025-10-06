@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>GAZASCRIPT BMI CAL</h2>
+
+    <form onsubmit="calculate(event)">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="weight">Weight (kg):</label>
+      <input type="number" id="weight" required>
+
+      <label for="height">Height (m):</label>
+      <input type="number" id="height" step="0.01" required>
+
+      <div class="buttons">
+        <button type="submit" class="btn">Calculate BMI</button>
+        <button type="reset" class="btn reset">Reset</button>
+      </div>
+    </form>
+
+    <div id="result-box">
+      <h3>Result:</h3>
+      <p id="result">Enter your details above and click "Calculate BMI"</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
