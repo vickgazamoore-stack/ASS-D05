@@ -1,7 +1,7 @@
 function calculate(event) {
   event.preventDefault();
 
-  // Getting element by id from HtMl //
+  // GETTING ELEMENT FROM HtMl //
   let name = document.getElementById("name").value;
   let weightKg = Number(document.getElementById("weight").value);
   let heightM = Number(document.getElementById("height").value);
@@ -11,7 +11,7 @@ function calculate(event) {
   let heightSquared = heightM * heightM;
   let bmi = weightKg / heightSquared;
 
-  // Check categories //
+  // CHECK CATEGORIES //
   let message = `${name}, your BMI is <b>${bmi.toFixed(2)}</b>. <br>`;
   
  //LOGICAL OPERATION //
@@ -26,7 +26,7 @@ function calculate(event) {
     console.log("you are overweight");
   }
 
-  // High risk check //
+  // HIGH RISK CHECK //
   if (bmi >= 25 || weightKg > 90) {
     message += " High Risk Alert!";
     console.log("high risk")

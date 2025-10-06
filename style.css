@@ -1,4 +1,4 @@
-/* Body Styling */
+/* BODY STYLING */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #0056b3;
@@ -10,9 +10,9 @@ body {
   margin: 0;
 }
 
-/* Container Box */
+/* CONTAINER BOX */
 .container {
-  background-color: rgb(245, 222, 179);
+  background-color: rgb(248, 222, 175);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 2px 2px 20px;
@@ -20,13 +20,19 @@ body {
   text-align: center;
 }
 
-/* header */
+.container:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* HEADING */
 h2 {
   color: #007bff;
   margin-bottom: 20px;
 }
 
-/* Labels and Inputs */
+
+/* LABELS & INPUTS */
 label {
   display: block;
   text-align: left;
@@ -34,6 +40,7 @@ label {
   font-weight: bold;
   color: #2b2929;
 }
+
 
 input {
   width: 300px;
@@ -49,7 +56,12 @@ input:focus {
   outline: none;
 }
 
-/* Buttons */
+input:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* BUTTONS */
 .buttons {
   margin-top: 20px;
   display: flex;
@@ -73,7 +85,7 @@ input:focus {
   transform: scale(1.05);
 }
 
-/* Reset Button */
+/* RESET BUTTON */
 .reset {
   background-color: #dc3545;
 }
@@ -82,17 +94,25 @@ input:focus {
   background-color: #b02a37;
 }
 
-/* Result Box */
+/* RESULT BOX */
 #result-box {
   margin-top: 25px;
   background-color: #d0d2d4;
   border-radius: 10px;
   padding: 15px;
   box-shadow: 2px 2px 20px;
+  
+}
+
+#result-box:hover {
+transform: scale(1.05);
+  cursor: pointer;
+
 }
 
 #result {
   margin-top: 10px;
   font-size: 15px;
 }
+
 
